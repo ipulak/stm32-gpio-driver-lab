@@ -1,0 +1,17 @@
+# STM32CubeIDE build output
+**/Debug/
+**/Release/
+
+# Generated binaries
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.mk
+
+#eclipse / STM32CubeIDE workshop
+.metadata/
+
+# macOS
+.DS_Store
