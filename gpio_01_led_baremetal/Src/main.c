@@ -44,11 +44,8 @@ int main(void)
 	GPIOD_PUPDR &= ~(3U << 26);
 
 	/* Set PD13 */
-	//GPIOD_BSSR = (1U << 13);
-	GPIOD_ODR &= ~(1U << 13);
+	GPIOD_BSSR = (1U << 13);
 
-	/* Reset PD13 */
-	//GPIOD_BSSR = (1U << 29);
 
     /* Loop forever */
 	for(;;);
