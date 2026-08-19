@@ -13,5 +13,8 @@
 #eclipse / STM32CubeIDE workshop
 .metadata/
 
+#STM32CubeIDE local preferences
+**/.settings/*.prefs
+
 # macOS
 .DS_Store
